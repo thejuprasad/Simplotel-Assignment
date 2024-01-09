@@ -69,7 +69,7 @@ nav ul.menu li a {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 888px) {
     nav label.menu-icon {
         display: block;
     }
@@ -97,4 +97,7 @@ nav ul.menu li a {
     nav input:checked~ul.menu {
         display: flex;
     }
+}
+@media screen and (max-width:888px) {
+    
 }
