@@ -8,7 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(237, 97, 90);
+    background-color: rgba(255, 113, 113, 255);
     height: 60px;
     padding: 0 20px;
     position: sticky;
@@ -24,9 +24,10 @@ nav {
     font-size: 5px;
 } */
 
-nav ul.menu li.menu-bar {
-    margin-left: auto;
-    /* Push the menu card to the right */
+nav ul.menu {
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0px;
 }
 
 nav ul.menu li.menu-bar img {
@@ -50,14 +51,17 @@ nav ul.menu {
     display: flex;
     align-items: center;
     margin: auto;
-    gap: 48px;
-    background-color: rgb(237, 97, 90);
+    /* gap: 48px; */
+    background-color: rgba(255, 113, 113, 255);
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
+    /* background-color: yellow; */
 }
 
 nav ul.menu li {
-    margin: 0 10px;
+    /* margin: 0 10px; */
+    /* background-color: pink; */
+    cursor: pointer;
 }
 
 nav ul.menu li a {
